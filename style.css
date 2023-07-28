@@ -1,7 +1,71 @@
-h1 {
-    font-family: 'Georgia', 'Times New Roman', serif;
+/*for all*/
+body {
+    background-color: blanchedalmond;
 }
 
-body {
-    background-color: bisque;
+h1 {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: 56%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*home page*/
+.menu {
+    text-align: center;
+    padding: 16px;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 8px 0;
+    margin: 0 16px;
+    border: 5px dashed #fac548;
+}
+
+li a {
+    padding: 8px 24px;
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    color: white;
+    background-color: slateblue;
+}
+
+/*recipe pages*/
+.recipeimg {
+    width: 36%;
+}
+
+.rcpbody {
+    margin: 24px;
+}
+
+.rcpcontent {
+    border: 3px dashed #fac548;
+    padding: 10px;
+    margin: 24px 0;
+}
+
+.rcpcontent h2 {
+    margin: 16px;
+}
+
+.rcpcontent p {
+    margin: 16px;
+}
+
+.rcpcontent ul li {
+    margin-bottom: 5px;
+}
+
+.rcpcontent ol li {
+    margin-bottom: 8px;
 }
